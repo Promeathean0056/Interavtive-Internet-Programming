@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Lab 2 Eli Whitman</title>
+</head>
+<body>
+
+	<p>#1</p>
+		<script>
+		var x1 = 1;
+			while(x1 < 97)
+			{
+				document.write(x1 + " ");
+				x1 = x1 + 5;
+			}
+		</script>
+	<p>#2</p>
+	<script>
+	var x2 = 1;
+		while(x2 < 19685)
+		{
+			document.write(x2 + " ");
+			x2 = x2 * 3;
+		}
+	</script>
+
+	<p>#3</p>
+
+	<script>
+	
+  var vowelsCount = 0;
+  var string = "Hi! I'm a test String is that not grand?";//input string here.
+  document.write("This is the string: '" + string + "'");
+
+  for (var i = 0; i <= string.length - 1; i++) {
+
+    if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u" 
+	|| string.charAt(i) == "A" || string.charAt(i) == "E" || string.charAt(i) == "I" || string.charAt(i) == "O" || string.charAt(i) == "U") {
+      vowelsCount += 1;
+    }
+  }
+  document.write("  and the number of vowels are: " + vowelsCount);
+
+	</script>
+</body>
+</html>
